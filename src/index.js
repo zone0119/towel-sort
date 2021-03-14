@@ -3,6 +3,9 @@
 
 module.exports = function towelSort (matrix) {
   
+  if (matrix === indefined)
+    return [];
+
   var n = 1, newArr = [];
   
    matrix.forEach((i) => {
